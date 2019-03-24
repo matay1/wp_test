@@ -155,7 +155,8 @@ gulp.task('styles', () => {
 	/*.pipe(notify({
 		message: '\n\n✅  ===> STYLES — completed!\n',
 		onLast: true
-	}));*/
+	}))*/
+	;
 });
 
 /**
@@ -220,7 +221,8 @@ gulp.task('stylesRTL', () => {
 	/*.pipe(notify({
 		message: '\n\n✅  ===> STYLES RTL — completed!\n',
 		onLast: true
-	}));*/
+	}))*/
+	;
 });
 
 /**
@@ -268,7 +270,8 @@ gulp.task('vendorsJS', () => {
 	/*.pipe(notify({
 		message: '\n\n✅  ===> VENDOR JS — completed!\n',
 		onLast: true
-	}));*/
+	}))*/
+	;
 });
 
 /**

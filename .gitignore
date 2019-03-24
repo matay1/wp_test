@@ -8,7 +8,6 @@ node_modules/
 ############
 *.7z
 *.dmg
-*.gz
 *.bz2
 *.iso
 *.jar
