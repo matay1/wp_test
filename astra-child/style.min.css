@@ -1,16 +1,18 @@
 .onsale{border:none !important;background-color:transparent !important;font-weight:600 !important;color:#333 !important;left:10px !important;text-align:left !important}
 .menu-item a{font-family:"Lato",sans-serif;font-weight:600;font-size:16px}
 .main-header-bar a{font-weight:400;color:white !important}
-.ast-cart-menu-wrap .count,.ast-cart-menu-wrap .count:after{color:white}
+.ast-cart-menu-wrap .count,.ast-cart-menu-wrap .count:after{color:white;border:2px solid white}
 .sticky{position:fixed !important;top:0;left:0;width:100%;background:white;height:70px;border-bottom:.5px solid rgba(0,0,0,0.2)}
 .sticky a{opacity:1;color:#323232 !important;font-size:12px;font-family:"Muli";font-weight:400}
 .sticky .main-header-bar-wrap,.sticky .main-header-bar{height:inherit !important;padding:0}
 .sticky .ast-container,.sticky .main-header-container{height:100% !important}
 .sticky .main-header-bar{background:none !important}
-.sticky .ast-cart-menu-wrap .count,.sticky .ast-cart-menu-wrap .count:after{color:#323232;-webkit-transition:all .5s;transition:all .5s}
+.sticky .ast-cart-menu-wrap .count,.sticky .ast-cart-menu-wrap .count:after{color:#323232;border:2px solid #323232;-webkit-transition:all .5s;transition:all .5s}
 .sticky .ast-cart-menu-wrap .count:hover{color:white}
 .ast-small-footer{font-size:11px;font-family:"Muli"}
 .ast-footer-overlay{padding:1.6666em 0}
 .footer-adv-overlay .widget-title{font-weight:400}
 .footer-adv-overlay a{line-height:2em}
 .footer-adv-overlay a:hover{color:red}
+.cart_list a.remove{color:rgba(50,50,50,0.2) !important}
+.cart_list a.remove:hover{color:#323232 !important}

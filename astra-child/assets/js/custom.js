@@ -19,15 +19,15 @@ $(function ($) {
 
       if (scroll >= shrinkHeader) {
         slideIndone = true;
-        head.slideDown('800');
+        head.slideDown(600);
       }
     } else if (scroll < shrinkHeader && !slideOutdone) {
       slideOutdone = true;
       slideIndone = false;
-      head.slideUp('800', function () {
+      head.slideUp(300, function () {
         head.removeClass('sticky');
         setTimeout(function () {
-          head.fadeIn('10');
+          head.fadeIn(100);
         }, 10);
       });
     }
