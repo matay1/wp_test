@@ -17,7 +17,7 @@ $(function ($) {
 			}
 			if (scroll >= shrinkHeader) {
 				slideIndone = true;
-				head.slideDown(600);
+				head.slideDown(500);
 			}
 
 		} else if (scroll < shrinkHeader && !slideOutdone) {
