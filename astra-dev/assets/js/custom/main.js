@@ -26,7 +26,7 @@ $(function ($) {
 			head.slideUp(300, function () {
 				head.removeClass('sticky');
 				setTimeout(function () {
-					head.fadeIn(100);
+					head.fadeIn(200);
 				}, 10);
 			});
 		}
@@ -36,6 +36,4 @@ $(function ($) {
 	function getCurrentScroll() {
 		return window.pageYOffset || document.documentElement.scrollTop;
 	}
-
-
 });
